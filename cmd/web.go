@@ -10,7 +10,7 @@ func InitWeb() {
 
 	shorter.InitRoutes(gin)
 
-	err := gin.Run(":8080")
+	err := gin.Run(":9000")
 	if err != nil {
 		panic(err)
 	}
